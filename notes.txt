@@ -1,0 +1,138 @@
+Interview questions 
+1.what is an html tag
+the html tag which has starting and ending tag together called as html element
+2.what is the use of target attribute
+_blank traget attribute will be open in new tab
+_self will open the link in same tab
+3.what is the difference between relative path and absoloute path
+relative where we stored then image in local storage which is present in local 
+absoloute we provide image url link ie iamge link which is present in clould 
+4.what is the use of alt attribute
+when the image is not loaded due to some internet issue then it display the what type of image it 
+5.what is the difference between bold tag and strong tag
+bold text is not read by voice reader(accisibiltiy is not consider) so we use strong tag it will aunnoce(accisibiltiy is consider) in the voice reader  
+->i tag and emphasise tag 
+i is not used for accisibiltiy 
+em tag is used for accisibiltiy
+->how did u achieve the seo = title meta name with description content with the key words
+->in html class is used to style the html  
+->what is uses of class in html= is class is used to style the particular element
+->what is the difference between class and the id
+class are used for mutiples elements   
+id  it should be unique  id's are unique
+div tag is used to group the elements it acts like a container
+->give an example of inline elements and block elements and difference between them
+iframe tag is used to refer the external website 
+html semantics= tags with some meaning on it(it helps in seo),(it helps in accisibiltiy(screen reader)issues)
+<header>
+<footer>
+<main>
+<nav>
+<section>
+<article>
+<figure>
+<aside>
+->SVG = scalable vector grpahics
+->explain DOM tree
+documemt object model
+html element->head            body element
+                 ->title    ->h1  img  a
+                 ->text     ->text src href
+name attribute is used to capture the user input
+
+CSS 
+TYPES OF CSS 
+->inline
+->external
+->internal
+syntax of css selector
+.para(selector){color:(property)red(value)}
+css selector
+element selector(h1,p,div etc)
+class selector(.)
+id selector(#)
+universal selector(*)
+group selector(multiple elements(h1,h3,p,div))
+
+CSS colors
+rgb(red,green,blue)
+rgba(red,green,blue,alpha)
+hexa(rr,gg,bb)
+hsl(hue(0-255) saturation(0-100%) lightness(0-100%))
+a=alpha color range should be 0 to 1 its also called as opacity
+
+margins 
+margin syntax 
+margin:top right bottom left it moves in a clock direction
+what is the difference between margin and padding 
+margin happens in outside the border
+padding happens in inside the border
+
+box model (is very important)
+font family: 3rd value   (if the font family 1st value is not read by browser it will fallback to 3rd value)font fallback basic font which is available in browser
+what is the differnece between width and max width in css
+width has fixed length 
+max width changes based on the responsivess to our web pages
+
+important Interview questions with suitable example based on the positions
+static is default
+relative
+fixed
+sticky
+absoloute=to add absolute postion we have 2 conditions one is parent that should be relative and 2nd should be child that should be is absolute
+
+CSS flexbox important
+why flexbox
+to arrange group of elementsin a single dimension
+
+CSS pseudo selector
+:hover(:pseudo class):nth-child
+::first-line(::pseudo elements)::first-letter::selection
+
+important  grid layout(example youtube)
+ CSS specificity
+order of priority
+->inline
+->id
+->class
+->p
+use !important TO  add the highest priority
+
+(livescript old name)javascript 
+what is javascript 
+is a high level programming language written to make web page live or to add an action to your web page also called light weighted
+java script runs in the browser has in built  javascript virutal machine browser has it by default chrome v8 mozilla spdier movey, safari nitro
+script is a set intsructions 
+
+comment in javascript 
+single line / /
+mutiline /*     */
+console.log is used to print the output
+
+variables are memory to store the data 
+3 ways to create variables 
+imp diffrence btween var const let
+var 
+->function scope 
+->can be re declared 
+->it can re intilized
+let
+->block scope 
+-> it cannot be re declared 
+->can be reinitalized 
+const
+->block scope 
+->it cannot be re declared 
+->it cannot be reinitalized
+
+what is the differnces btw == and ===
+== compares the value
+=== compares values with the datatypes
+
+
+
+
+
+
+
+

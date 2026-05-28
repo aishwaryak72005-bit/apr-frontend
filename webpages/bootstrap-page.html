@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Webpage</title>
+    <!--Icon<img width="1114" height="852" src="/uploads/logo-adidas-vector-png-32.png"-->
+    <!--Bootstrap css-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <style>
+      *{
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-color: #f2f2f2;
+      }
+      .brand-logo h1{
+        line-height: 1.5px;
+        font-size: 25px;
+        
+      }
+      .input-text {
+        width: 700px;
+        margin-left: 100px;
+      }
+      .add-space {
+        margin-left: 100px;
+      }
+      .text-style {
+        font-family: Arial, Helvetica, sans-serif;
+        color: aqua;
+      }
+      .image-view {
+        height: 600px;
+      
+      }
+      .main {
+        width: 90%;
+        margin: 50px auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+      }
+      .card{
+      background-color: white;
+      padding: 20px;
+      border-radius: 15px;
+      text-align: center;
+      width: 300px;
+    }
+    .card:hover{
+      background-color: #d08ec83a;
+    }
+    .card img{
+      width: 100%;
+      height: 350px;
+      border-radius: 10px;
+    }
+
+    .title{
+      margin-top: 20px;
+      font-size: 25px;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+    
+    </style>
+  </head>
+  <body>
+    <!--Nav Bar start-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <div class="brand-logo">
+        <svg
+          height="80px"
+          viewBox="100 100 50.07 31.439"
+          width="80px"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="m150.07 131.439-18.145-31.439-9.719 5.606 14.906 25.833zm-17.289 0-11.984-20.747-9.719 5.606 8.745 15.141zm-23.063-10.038 5.791 10.038h-12.958l-2.551-4.432z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        <h1>Adidas</h1>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse text-style"
+          id="navbarSupportedContent"
+        >
+          <form class="d-flex input-text" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+          <ul class="navbar-nav me-auto mb-2 add-space mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Shoes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Men</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Women</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Nav Bar end-->
+    <!--Coursal start-->
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto:best,fl_lossy/if_w_gt_1920,w_1920/banner_statement_3_2e19265421.jpg"
+"
+            class="d-block w-100 image-view"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto:best,fl_lossy/global_superstar_originals_ss26_launch_oplp_retro_style_banner_snippet_d_22225870a1.jpg" 
+          class="d-block w-100 image-view"
+           alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto:best,fl_lossy/if_w_gt_400,w_400/CLP_wayfinder_303fb55a88.jpg" 
+          class="d-block w-100 image-view"
+           alt="..." />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!--Coursal end-->
+    <div class="main">
+      <div class="card">
+        <img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto:best,fl_lossy/if_w_gt_800,w_800/TC_1050x1400_1_copy_1_8eababb35c.jpg">
+        <div class="title">Cricket</div>
+      </div>
+      <div class="card">
+        <img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto:best,fl_lossy/if_w_gt_800,w_800/running_5_0f50633095.jpg" alt="">
+      <div class="title">Football</div>
+      </div>
+      <div class="card">
+        <img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto:best,fl_lossy/if_w_gt_800,w_800/training_bf8bd54e13.jpg" alt="">
+      <div class="title">Trainning</div>
+      </div>
+    </div>
+    
+
+    <!--Bootstrap script-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+
