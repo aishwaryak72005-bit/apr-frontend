@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Z index</title>
+    <style>
+      .one {
+        height: 400px;
+        width: 400px;
+        background-color: aqua;
+        border: 2px solid black;
+        font-size: 300px;
+        text-align: center;
+        position: relative;
+        top: 200px;
+        z-index: 2;
+      }
+      .two {
+        height: 400px;
+        width: 400px;
+        background-color: rgb(3, 78, 8);
+        border: 2px solid black;
+        font-size: 300px;
+        text-align: center;
+        position: relative;
+        z-index: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="one">1</div>
+    <div class="two">2</div>
+  </body>
+</html>

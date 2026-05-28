@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Specificity</title>
+    <style>
+        #para{
+            color: pink;
+        }
+        .new{
+            color: green;
+        }
+        p{
+            color: brown !important;
+        }
+    </style>
+  </head>
+  <body>
+    <p id="para" class="new" style="color: rgb(255, 72, 0)">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quaerat
+      maxime asperiores eum voluptatibus, nam eius veritatis? Amet iure modi,
+      sed aut officia quisquam pariatur perferendis perspiciatis nostrum
+      voluptas a?
+    </p>
+  </body>
+</html>

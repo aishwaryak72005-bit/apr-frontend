@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Pseudo Learning</title>
+    <style>
+      .hello {
+        background-color: yellow;
+        width: 150px;
+        height: 50px;
+      }
+      .hello:hover {
+        background-color: green;
+      }
+      p::first-line {
+        font-size: 30px;
+        color: rgb(16, 37, 189);
+      }
+      p::first-letter {
+        font-size: 45px;
+        font-style: italic;
+      }
+      p::selection {
+        background-color: rgb(118, 9, 89);
+      }
+      li:nth-child(3n+1){
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="hello">Hello</button>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit dolorum
+      blanditiis maiores ducimus nemo fugiat mollitia voluptates at natus? Nihil
+      quibusdam placeat necessitatibus! Rem earum ratione distinctio mollitia
+      quisquam. Adipisci? Lorem ipsum dolor, sit amet consectetur adipisicing
+      elit. A eius excepturi deserunt. Obcaecati repellendus ullam error ut odio
+      possimus. Sunt quo magnam voluptas iure dolor aliquam eaque, totam quos
+      qui. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore
+      optio maxime eveniet ut molestias quae neque tenetur minima vel saepe
+      earum, repellendus praesentium, possimus obcaecati enim? Iure, porro.
+      Modi, doloribus?
+    </p>
+    <ul>
+      <li>Kohli number 18</li>
+      <li>Dhoni number 7</li>
+      <li>Rhothi number Sharma 45</li>
+      <li>sachin number 10</li>
+      <li>Ganguly number 99</li>
+      <li>Kohli number 18</li>
+      <li>Dhoni number 7</li>
+      <li>Rhothi number Sharma 45</li>
+      <li>sachin number 10</li>
+      <li>Ganguly number 99</li>
+    </ul>
+  </body>
+</html>
