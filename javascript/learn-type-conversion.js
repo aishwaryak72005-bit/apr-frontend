@@ -13,15 +13,24 @@ if (name) {
 if ("") {
   console.log("I am no one");
 }
-if("hello"){
+if ("hello") {
   console.log("true statement");
+} else {
+  console.log("false statement");
 }
-else{
-  console.log("false statement")
-}
-if(" "){
+if (" ") {
   console.log("true statement");
+} else {
+  console.log("false statement");
 }
-else{
-  console.log("false statement")
-}
+
+//explicit coversion
+//string , boolean ,Number
+
+console.log(String(true));
+console.log(String(123));
+console.log(Number("123"));
+console.log(Boolean(""));
+console.log(Boolean("123"));
+
+
