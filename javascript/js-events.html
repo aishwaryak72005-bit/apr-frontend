@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript Events</title>
+  </head>
+  <body>
+    <h1 id="hello"></h1>
+    <input type="text" value="" onblur="pen()" />
+    <button onclick="sayhello()" onmouseover="remote()" onmouseout="tv()">
+      Click
+    </button>
+    <script>
+      function sayhello() {
+        document.getElementById("hello").innerHTML = "i have clicked";
+      }
+      function remote() {
+        document.getElementById("hello").innerHTML = "on mouse over";
+      }
+      function tv() {
+        document.getElementById("hello").innerHTML = "on mouse out";
+      }
+      function pen() {
+        document.getElementById("hello").innerHTML = "when i burled the input";
+      }
+    </script>
+  </body>
+</html>
+<!--onblur onclick is mostly we use-->
